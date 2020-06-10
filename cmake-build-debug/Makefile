@@ -123,6 +123,33 @@ GOLFilter/fast:
 	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/build
 .PHONY : GOLFilter/fast
 
+PPMReader.o: PPMReader.c.o
+
+.PHONY : PPMReader.o
+
+# target to build an object file
+PPMReader.c.o:
+	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/PPMReader.c.o
+.PHONY : PPMReader.c.o
+
+PPMReader.i: PPMReader.c.i
+
+.PHONY : PPMReader.i
+
+# target to preprocess a source file
+PPMReader.c.i:
+	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/PPMReader.c.i
+.PHONY : PPMReader.c.i
+
+PPMReader.s: PPMReader.c.s
+
+.PHONY : PPMReader.s
+
+# target to generate assembly for a file
+PPMReader.c.s:
+	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/PPMReader.c.s
+.PHONY : PPMReader.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GOLFilter"
+	@echo "... PPMReader.o"
+	@echo "... PPMReader.i"
+	@echo "... PPMReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
