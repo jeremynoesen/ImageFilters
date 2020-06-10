@@ -57,22 +57,9 @@ include CMakeFiles/GOLFilter.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GOLFilter.dir/flags.make
 
-CMakeFiles/GOLFilter.dir/main.c.o: CMakeFiles/GOLFilter.dir/flags.make
-CMakeFiles/GOLFilter.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy/Workspace/Personal/C/GOLFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GOLFilter.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GOLFilter.dir/main.c.o   -c /Users/jeremy/Workspace/Personal/C/GOLFilter/main.c
-
-CMakeFiles/GOLFilter.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GOLFilter.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jeremy/Workspace/Personal/C/GOLFilter/main.c > CMakeFiles/GOLFilter.dir/main.c.i
-
-CMakeFiles/GOLFilter.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GOLFilter.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jeremy/Workspace/Personal/C/GOLFilter/main.c -o CMakeFiles/GOLFilter.dir/main.c.s
-
 CMakeFiles/GOLFilter.dir/PPMReader.c.o: CMakeFiles/GOLFilter.dir/flags.make
 CMakeFiles/GOLFilter.dir/PPMReader.c.o: ../PPMReader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy/Workspace/Personal/C/GOLFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GOLFilter.dir/PPMReader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy/Workspace/Personal/C/GOLFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GOLFilter.dir/PPMReader.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GOLFilter.dir/PPMReader.c.o   -c /Users/jeremy/Workspace/Personal/C/GOLFilter/PPMReader.c
 
 CMakeFiles/GOLFilter.dir/PPMReader.c.i: cmake_force
@@ -83,16 +70,29 @@ CMakeFiles/GOLFilter.dir/PPMReader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GOLFilter.dir/PPMReader.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jeremy/Workspace/Personal/C/GOLFilter/PPMReader.c -o CMakeFiles/GOLFilter.dir/PPMReader.c.s
 
+CMakeFiles/GOLFilter.dir/GameOfLife.c.o: CMakeFiles/GOLFilter.dir/flags.make
+CMakeFiles/GOLFilter.dir/GameOfLife.c.o: ../GameOfLife.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeremy/Workspace/Personal/C/GOLFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GOLFilter.dir/GameOfLife.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GOLFilter.dir/GameOfLife.c.o   -c /Users/jeremy/Workspace/Personal/C/GOLFilter/GameOfLife.c
+
+CMakeFiles/GOLFilter.dir/GameOfLife.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GOLFilter.dir/GameOfLife.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jeremy/Workspace/Personal/C/GOLFilter/GameOfLife.c > CMakeFiles/GOLFilter.dir/GameOfLife.c.i
+
+CMakeFiles/GOLFilter.dir/GameOfLife.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GOLFilter.dir/GameOfLife.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jeremy/Workspace/Personal/C/GOLFilter/GameOfLife.c -o CMakeFiles/GOLFilter.dir/GameOfLife.c.s
+
 # Object files for target GOLFilter
 GOLFilter_OBJECTS = \
-"CMakeFiles/GOLFilter.dir/main.c.o" \
-"CMakeFiles/GOLFilter.dir/PPMReader.c.o"
+"CMakeFiles/GOLFilter.dir/PPMReader.c.o" \
+"CMakeFiles/GOLFilter.dir/GameOfLife.c.o"
 
 # External object files for target GOLFilter
 GOLFilter_EXTERNAL_OBJECTS =
 
-GOLFilter: CMakeFiles/GOLFilter.dir/main.c.o
 GOLFilter: CMakeFiles/GOLFilter.dir/PPMReader.c.o
+GOLFilter: CMakeFiles/GOLFilter.dir/GameOfLife.c.o
 GOLFilter: CMakeFiles/GOLFilter.dir/build.make
 GOLFilter: CMakeFiles/GOLFilter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeremy/Workspace/Personal/C/GOLFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable GOLFilter"

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "PPMReader.h"
 
 /* Color struct to manage pixel colors */
 typedef struct {
@@ -7,7 +8,7 @@ typedef struct {
 } Color;
 
 /* Read a PPM image to a Color array */
-int *readPPMImage(const char *fileName) {
+struct Color *readPPMImage(const char *fileName) {
     FILE *file = fopen(fileName, "r");
     char *fileType = "";
     fscanf(file, "%s", fileType);
