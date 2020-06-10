@@ -123,6 +123,33 @@ GOLFilter/fast:
 	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/build
 .PHONY : GOLFilter/fast
 
+GameOfLife.o: GameOfLife.c.o
+
+.PHONY : GameOfLife.o
+
+# target to build an object file
+GameOfLife.c.o:
+	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/GameOfLife.c.o
+.PHONY : GameOfLife.c.o
+
+GameOfLife.i: GameOfLife.c.i
+
+.PHONY : GameOfLife.i
+
+# target to preprocess a source file
+GameOfLife.c.i:
+	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/GameOfLife.c.i
+.PHONY : GameOfLife.c.i
+
+GameOfLife.s: GameOfLife.c.s
+
+.PHONY : GameOfLife.s
+
+# target to generate assembly for a file
+GameOfLife.c.s:
+	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/GameOfLife.c.s
+.PHONY : GameOfLife.c.s
+
 PPMReader.o: PPMReader.c.o
 
 .PHONY : PPMReader.o
@@ -150,33 +177,6 @@ PPMReader.c.s:
 	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/PPMReader.c.s
 .PHONY : PPMReader.c.s
 
-main.o: main.c.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/GOLFilter.dir/build.make CMakeFiles/GOLFilter.dir/main.c.s
-.PHONY : main.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GOLFilter"
+	@echo "... GameOfLife.o"
+	@echo "... GameOfLife.i"
+	@echo "... GameOfLife.s"
 	@echo "... PPMReader.o"
 	@echo "... PPMReader.i"
 	@echo "... PPMReader.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

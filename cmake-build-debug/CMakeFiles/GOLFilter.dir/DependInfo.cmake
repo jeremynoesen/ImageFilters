@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/jeremy/Workspace/Personal/C/GOLFilter/GameOfLife.c" "/Users/jeremy/Workspace/Personal/C/GOLFilter/cmake-build-debug/CMakeFiles/GOLFilter.dir/GameOfLife.c.o"
   "/Users/jeremy/Workspace/Personal/C/GOLFilter/PPMReader.c" "/Users/jeremy/Workspace/Personal/C/GOLFilter/cmake-build-debug/CMakeFiles/GOLFilter.dir/PPMReader.c.o"
-  "/Users/jeremy/Workspace/Personal/C/GOLFilter/main.c" "/Users/jeremy/Workspace/Personal/C/GOLFilter/cmake-build-debug/CMakeFiles/GOLFilter.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

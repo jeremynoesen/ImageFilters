@@ -78,10 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/jeremy/Workspace/Personal/C/GOLFilter/GameOfLife.c">
+			<Option target="GOLFilter"/>
+		</Unit>
+		<Unit filename="/Users/jeremy/Workspace/Personal/C/GOLFilter/GameOfLife.h">
+			<Option target="GOLFilter"/>
+		</Unit>
 		<Unit filename="/Users/jeremy/Workspace/Personal/C/GOLFilter/PPMReader.c">
 			<Option target="GOLFilter"/>
 		</Unit>
-		<Unit filename="/Users/jeremy/Workspace/Personal/C/GOLFilter/main.c">
+		<Unit filename="/Users/jeremy/Workspace/Personal/C/GOLFilter/PPMReader.h">
 			<Option target="GOLFilter"/>
 		</Unit>
 		<Unit filename="/Users/jeremy/Workspace/Personal/C/GOLFilter/CMakeLists.txt">

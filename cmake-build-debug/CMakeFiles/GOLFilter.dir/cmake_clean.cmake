@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GOLFilter.dir/GameOfLife.c.o"
   "CMakeFiles/GOLFilter.dir/PPMReader.c.o"
-  "CMakeFiles/GOLFilter.dir/main.c.o"
   "GOLFilter"
   "GOLFilter.pdb"
 )
