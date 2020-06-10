@@ -2,6 +2,6 @@
 #define GOLFILTER_PPMREADER_H
 
 struct Color;
-struct Color *readPPMImage(const char *fileName);
+struct Pixel *readPPMImage(const char *fileName);
 
 #endif //GOLFILTER_PPMREADER_H
