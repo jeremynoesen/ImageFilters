@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/jeremy/Workspace/Personal/C/GOLFilter/PPMReader.c">
+			<Option target="GOLFilter"/>
+		</Unit>
 		<Unit filename="/Users/jeremy/Workspace/Personal/C/GOLFilter/main.c">
 			<Option target="GOLFilter"/>
 		</Unit>
