@@ -7,3 +7,5 @@ Conway's Game of Life filter: This is an image filter for PPM format images that
 Blur: This filter will take the average of the colors of surrounding pixels with a user-defined radius and set the central pixel to that color for every pixel in the image to create a blur effect
 
 More filters to come...
+
+*(Note: this project's release branch is not complete. A release does not exist.)*
